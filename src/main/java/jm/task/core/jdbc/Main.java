@@ -14,7 +14,6 @@ public class Main {
     public static void main(String[] args) {
         Util util = new Util();
         UserServiceImpl userService = new UserServiceImpl();
-        SessionFactory sessionFactory = util.getSessionFactory();
 
         while (true) {
 
